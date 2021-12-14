@@ -3,11 +3,20 @@ import './Product.css'
 
 const Product = (props) => {
   console.log(props.product)
-  const {name, img, price, stock} = props.product;
+  const {name, img, seller, price, stock} = props.product;
   return (
-    <div>
+    <div className="product">
+      <div>
       <img src={img} alt="" />
-      <h2>{name}</h2>
+      </div>
+      <div>
+      <h2 className='product-name'>{name}</h2>
+      <p> <small>By: {seller}</small></p>
+      <p>Price:{' '+price}$</p>
+      <p><small>only {stock} left in stock - order soon</small></p>
+
+      </div>
+      
     </div>
   );
 };
