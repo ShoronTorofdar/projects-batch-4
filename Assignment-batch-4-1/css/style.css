@@ -1,0 +1,97 @@
+body{
+  font-family: 'Poppins', sans-serif;
+font-family: 'Pushster', cursive;
+margin: 0%;
+}
+.half-width{
+  width: 50%;
+}
+span{
+  color: rgba(251, 162, 79, 1);
+}
+h1{
+  font-size: 900;
+}
+
+.link-btn{
+  text-decoration: none;
+  background-image: linear-gradient(orange, red);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 35px ;
+}
+
+/* starting section */
+.flex-section{
+  display: flex;
+  margin-bottom: 200px;
+}
+#starting-text{
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+/* middle-section */
+#about-me{
+  background-image: url(../images/shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#about-me-text{
+  margin-top: 90px;
+  margin-left: 390px;
+  margin-right: 150px;
+  width: 60%;
+}
+.flex-section img{
+  height: 730px;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+/* card section start */
+
+#my-recipies-text{
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 90px;
+}
+
+#food-card{
+  display: flex;
+  margin-right: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 90px;
+}
+#food-card img{
+  width: 100%;
+  padding: 5px;
+  padding-left: 0%;
+  /* margin-bottom:100px ; */
+}
+#food-card div{
+  padding: 50px;
+  margin-right: 100px;
+  box-shadow: 5px 3px 2px 5px aqua;
+}
+
+.likes-section{
+  display: flex;
+}
+.likes-section-s div{
+ margin: 10px;
+ margin-right: 90px;
+ margin-left: 0%;
+}
+.likes-section-s {
+  display: flex;
+  width: 40%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 300px;
+  box-shadow: 5px 3px 2px 5px aqua;
+}
