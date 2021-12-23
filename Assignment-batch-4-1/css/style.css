@@ -63,6 +63,7 @@ h1{
   padding-left: 60px;
   padding-right: 60px;
   margin-bottom: 90px;
+  
 }
 #food-card img{
   width: 100%;
@@ -74,6 +75,7 @@ h1{
   padding: 50px;
   margin-right: 100px;
   box-shadow: 5px 3px 2px 5px aqua;
+  border-radius: 20px;
 }
 
 .likes-section{
@@ -94,4 +96,11 @@ h1{
   padding-bottom: 20px;
   padding-left: 300px;
   box-shadow: 5px 3px 2px 5px aqua;
+}
+
+footer{
+  text-align: center;
+  padding: 90px;
+  background-color: aquamarine;
+  color: rgb(10, 64, 241);
 }
