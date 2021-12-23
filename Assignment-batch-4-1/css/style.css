@@ -10,7 +10,7 @@ span{
   color: rgba(251, 162, 79, 1);
 }
 h1{
-  font-size: 900;
+  font-size: 80px;
 }
 
 .link-btn{
@@ -56,14 +56,19 @@ h1{
   margin-right: 400px;
   margin-bottom: 90px;
 }
-
+/* food card section */
 #food-card{
   display: flex;
   margin-right: 10px;
   padding-left: 60px;
   padding-right: 60px;
-  margin-bottom: 90px;
-  
+  margin-bottom: 90px;  
+}
+#food-card p{
+  font-size: 20px;
+}
+#food-card h2{
+  font-size: 30px;
 }
 #food-card img{
   width: 100%;
