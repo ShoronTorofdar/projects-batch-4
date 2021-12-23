@@ -98,6 +98,21 @@ h1{
   box-shadow: 5px 3px 2px 5px aqua;
 }
 
+/* extra section */
+#food-item-for-vote{
+  margin-top: 300px;
+  margin-bottom: 300px;
+  font-size: 90px;
+  background-color: beige;
+}
+#food-item-for-vote h1{
+text-align: center;
+}
+input.larger{
+  width: 90px;
+  height: 60px;
+}
+
 footer{
   text-align: center;
   padding: 90px;
