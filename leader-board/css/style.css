@@ -58,14 +58,15 @@ color: rgba(255, 255, 255, 1);
 }
 
 /* top player section */
-#top{
+
+.top{
   height: 679px;
   margin-left: 285px;
   margin-right: 285px;
   background-color:rgba(255, 255, 255, 1);
   
 }
-#top>h1{
+.h1{
 margin-left: 10px;
 padding-top: 33px;
 
@@ -97,3 +98,33 @@ hr{
   margin-left: 5px;
   margin-right: 33px;
 }
+
+/* Top-blog section */
+#top-blog{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 21px;
+}
+.top-blog-images{
+  display: flex;
+  width: 177px;
+  height: 117px;
+  margin-bottom: 26px;
+  
+  
+}
+.top-blog-para{
+  padding-left: 16px;
+  white-space: nowrap;
+  
+}
+span{
+  font-size: 16px;
+  color: rgba(86, 46, 255, 1);
+}
+.by{
+  color: #9F9F9F ;
+}
+
+
+/* Last Course section */
