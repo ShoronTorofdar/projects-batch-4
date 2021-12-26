@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Pushster', cursive;
+}
+/* nav bar section */
+header > nav {
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 94px;
+left: 0px;
+top: 0px;
+background: #562EFF;
+}
+#icon{
+  display: flex;
+}
+
+#icon p{
+width: 54px;
+height: 36px;
+margin-top: 33px;
+margin-bottom: 25px;
+margin-left: 15.58px;
+font-size: 24px;
+font-weight: 500;
+color: rgba(255, 255, 255, 1);
+;
+}
+#icon img{
+ width: 40.42px;
+ height: 51px;
+ margin-top: 26px;
+ margin-bottom: 17px;
+ margin-left: 285px;
+}
+#menu{
+  display: flex;
+}
+#menu a{
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-right: 20px;
+  text-decoration: none;
+  width: 48px;
+  height: 24px;
+  color: azure;
+  padding: 10px;
+
+}
+#menu img{
+  height: 51px;
+  width: 50px;
+  margin-top: 23px;
+  margin-bottom: 20px;
+  margin-right: 289px;
+}
+
+/* top player section */
+#top{
+  height: 679px;
+  margin-left: 285px;
+  margin-right: 285px;
+  background-color:rgba(255, 255, 255, 1);
+  
+}
+#top>h1{
+margin-left: 10px;
+padding-top: 33px;
+
+color:  rgba(86, 46, 255, 1);
+font-weight: 500px;
+font-size: 24px;
+padding-bottom:  36px; ;
+}
+.player{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+.img-para{
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+
+}
+.player img {
+  display: flex;
+  height: 56px;
+  width: 56px;
+  margin-right: 16px;
+  margin-bottom: 30px;
+}
+hr{
+  margin-left: 5px;
+  margin-right: 33px;
+}
